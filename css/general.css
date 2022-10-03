@@ -19,7 +19,8 @@
 
 --- 02 COLORS:
   - Primary:
-    - #e67e22
+    - #555;     Body
+    - #b3284f   Social links
 
   - Tints:  
     - #fdf2e9
@@ -31,15 +32,12 @@
 
   - Accents:
   - Greys:
-    - #888
-    - #767676 (lightest grey allowed on #fff)
-    - #6f6f6f (lightest grey allowed on #fdf2e9)
     - #555
-    - #333
+
+
 
 --- 05 SHADOWS
-  -- 0 3.2rem 6.4rem rgba(0, 0, 0, 0.075);
-
+  -- box-shadow: 0.5rem 0.8rem 0.8rem rgba(128, 128, 128, 0.1);
 
 --- 06 BORDER RADIUS
   - Default: 9px
@@ -74,7 +72,6 @@ body {
   line-height: 1;
   font-weight: 300;
   color: #555;
-  /* background-color: rgba(222, 184, 135, 0.909); TEMP */
 
   /* Only works if there is nothing absolutely
   positioned in relation to body */
