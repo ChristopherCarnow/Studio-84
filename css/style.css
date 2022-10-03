@@ -1,0 +1,146 @@
+/****************************/
+/* HEADER */
+/****************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  margin-top: 2rem;
+  background-color: #fdf2e9;
+}
+
+.logo {
+  height: 10rem;
+  border-radius: 50%;
+}
+
+/****************************/
+/* NAVIGATION */
+/****************************/
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4.8rem;
+  margin-bottom: 2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  display: inline-block;
+  color: #cf711f;
+}
+
+/****************************/
+/* HERO SECTION */
+/****************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  /* removes space around images */
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+/****************************/
+/* PRICING SECTION */
+/****************************/
+
+.section-pricing {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+/****************************/
+/* ABOUT SECTION */
+/****************************/
+
+.section-about {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+/****************************/
+/* CONTACT SECTION */
+/****************************/
+
+.section-contact {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+/****************************/
+/* FOOTER SECTION */
+/****************************/
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin: auto;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-bottom: 2rem;
+  color: #767676;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #eb984b;
+  cursor: pointer;
+}
