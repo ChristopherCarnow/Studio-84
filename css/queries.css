@@ -12,7 +12,16 @@ Instead, 1rem = 1em = 16px */
 
 @media (max-width: 84em) {
   .hero {
-    max-width: 120rem;
+    /* max-width: 120rem; */
+    justify-content: center;
+  }
+
+  .hero-gallery {
+    justify-content: center;
+  }
+
+  .container {
+    padding: 1rem;
   }
 }
 
@@ -20,13 +29,17 @@ Instead, 1rem = 1em = 16px */
 /* BELOW 5444px (Phones) */
 /* 544 / 16 = 34 */
 /************************************/
+
 @media (max-width: 34em) {
   .header {
     gap: 2rem;
   }
 
-  .main-nav {
-    margin-top: 1.5rem;
+  .container {
+    padding: 1.6rem;
+  }
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
   }
 
   .grid {
@@ -46,5 +59,21 @@ Instead, 1rem = 1em = 16px */
 @media (max-width: 20em) {
   .hero {
     max-width: 120rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-contact .section-text {
+    font-size: 1.6rem;
+  }
+
+  .section-contact .footer-link {
+    font-size: 1.4rem;
+  }
+
+  .main-nav-link:link {
+    font-size: 1.2rem;
   }
 }
