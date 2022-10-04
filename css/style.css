@@ -150,7 +150,7 @@
 
 .plan-header {
   text-align: center;
-  margin-bottom: 4.8rem;
+  margin-bottom: 3.2rem;
 }
 
 .plan-name {
@@ -183,7 +183,7 @@
 
 .plan-sign-up {
   text-align: center;
-  margin-top: 4.8rem;
+  margin-top: 3.2rem;
 }
 
 .plan-details {
@@ -195,6 +195,12 @@
 .plan-note {
   font-size: 1.6rem;
   text-align: center;
+}
+
+.plan-split {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .feature-icon {
