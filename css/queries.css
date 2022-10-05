@@ -76,8 +76,8 @@ Instead, 1rem = 1em = 16px */
   .best-seller::after {
     content: "Best seller";
     position: absolute;
-    top: 6%;
-    right: -32%;
+    top: 6.5%;
+    right: -28%;
   }
 }
 
