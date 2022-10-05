@@ -52,15 +52,11 @@ Instead, 1rem = 1em = 16px */
 }
 
 /************************************/
-/* BELOW 376px (Smaller phones) */
+/* BELOW 376px (Smaller phones incl. iPhone 6/7/8) */
 /* 376 / 16 = 23.5 */
 /************************************/
 
 @media (max-width: 23.5em) {
-  /* .hero {
-    max-width: 120rem;
-  } */
-
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
@@ -75,6 +71,13 @@ Instead, 1rem = 1em = 16px */
 
   .main-nav-link:link {
     font-size: 1.2rem;
+  }
+
+  .best-seller::after {
+    content: "Best seller";
+    position: absolute;
+    top: 6%;
+    right: -32%;
   }
 }
 
