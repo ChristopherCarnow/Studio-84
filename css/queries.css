@@ -26,7 +26,7 @@ Instead, 1rem = 1em = 16px */
 }
 
 /************************************/
-/* BELOW 5444px (Phones) */
+/* BELOW 544px (Phones) */
 /* 544 / 16 = 34 */
 /************************************/
 
@@ -48,6 +48,33 @@ Instead, 1rem = 1em = 16px */
 
   .logo {
     height: 5rem;
+  }
+}
+
+/************************************/
+/* BELOW 376px (Smaller phones) */
+/* 376 / 16 = 23.5 */
+/************************************/
+
+@media (max-width: 23.5em) {
+  /* .hero {
+    max-width: 120rem;
+  } */
+
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-contact .section-text {
+    font-size: 1.6rem;
+  }
+
+  .section-contact .footer-link {
+    font-size: 1.4rem;
+  }
+
+  .main-nav-link:link {
+    font-size: 1.2rem;
   }
 }
 
