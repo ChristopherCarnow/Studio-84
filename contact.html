@@ -44,7 +44,7 @@
     <title>Studio 84 &mdash; Photography</title>
   </head>
 
-  <body class="home">
+  <body>
     <header class="header">
       <a href="index.html">
         <img
@@ -53,10 +53,6 @@
           alt="Logo for Studio 84"
         />
       </a>
-      <!-- <div class="company">
-        <p class="company-name site-alignment-center">Studio 84</p>
-        <p class="company-subname site-alignment-center">Photography</p>
-      </div> -->
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="index.html">Home</a></li>
@@ -70,18 +66,70 @@
       </button>
     </header>
     <main>
-      <section class="section-hero">
-        <div class="hero">
+      <section class="section-contact" id="contact">
+        <div class="container">
           <img
-            src="images/hero.jpg"
-            alt="Black and white picture of a boy smiling"
-            class="hero-img"
-            srcset="
-              images/hero-mobile-500.png 500w,
-              images/hero-mobile-350.png 350w,
-              images/hero.jpg
-            "
+            class="contact-img"
+            src="images/contact.webp"
+            alt="Happy birthday cake"
           />
+          <h1 class="about-heading section-headings">Contact Us</h1>
+          <div class="section-text">
+            Have a question?<br /><br />
+            Thinking about booking a session?<br /><br />
+            Let's chat:<br /><br />
+            <div class="grid grid-contact">
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/people/Studio-84/100049145209511/"
+                title="Message me on Facebook"
+              >
+                <ion-icon class="footer-link" name="logo-facebook"></ion-icon
+              ></a>
+              <p>
+                <a
+                  class="footer-link"
+                  href="https://www.facebook.com/people/Studio-84/100049145209511/"
+                  >Message me on Facebook</a
+                >
+              </p>
+            </div>
+            <div class="grid grid-contact">
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/studio_84_photography/"
+                title="Message me on Instagram"
+              >
+                <ion-icon class="footer-link" name="logo-instagram"></ion-icon
+              ></a>
+              <p>
+                <a
+                  class="footer-link"
+                  href="https://www.instagram.com/studio_84_photography/"
+                  >Message me on Instagram</a
+                >
+              </p>
+            </div>
+
+            <div class="grid grid-contact">
+              <ion-icon class="footer-link" name="mail-outline"></ion-icon>
+              <a
+                class="footer-link"
+                href="mailto:studio84photography@outlook.com"
+                >studio84photography@outlook.com</a
+              >
+            </div>
+
+            <div class="grid grid-contact">
+              <ion-icon class="footer-link" name="call-outline"></ion-icon>
+              <p><a class="footer-link" href="tel:0609756710">0609756710</a></p>
+            </div>
+
+            <div class="grid grid-contact contact-location">
+              <ion-icon class="footer-link" name="location-outline"></ion-icon>
+              <address>Goodwood, Western Cape</address>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -91,8 +139,7 @@
         Studio 84 Photography &copy; <span class="year"></span>
         <br />
       </p>
-
-      <ul class="social-links social-links--home">
+      <ul class="social-links">
         <li>
           <a
             class="footer-link"
