@@ -22,6 +22,7 @@
 
 --- 02 COLORS:
   - Primary:
+    - #eeedde;  logo color
     - #555;     Body
     - #b3284f   Social links
 
@@ -63,17 +64,15 @@ html {
   /* font-size: 10px; */
   /* 10px / 16px = 0.625 = 62.5% */
   font-size: 62.5%;
-  overflow-x: hidden;
 
   /* May not work on older Safari or Edge. Currently works on Safari */
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "europa", sans-serif; /*"raleway", sans-serif;*/
+  font-family: "lora", sans-serif; /*"raleway", sans-serif;*/
   line-height: 1;
   font-weight: 300;
-  color: #555;
 
   /* Only works if there is nothing absolutely
   positioned in relation to body */
@@ -88,13 +87,15 @@ h1 {
 /* GENERAL REUSABLE COMPONENTS */
 /****************************/
 
+.home {
+  overflow: hidden;
+}
+
 .container {
   /*  1140px */
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
-
-  /* background-color: azure; TEMP */
 }
 
 .site-alignment-center {

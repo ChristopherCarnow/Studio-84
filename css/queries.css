@@ -12,24 +12,8 @@ Instead, 1rem = 1em = 16px */
 
 @media (max-width: 84em) {
   .hero {
-    /* max-width: 120rem; */
+    max-width: 120rem;
     justify-content: center;
-  }
-
-  .hero-gallery {
-    justify-content: center;
-  }
-
-  .container {
-    padding: 1rem;
-  }
-
-  .best-seller::after {
-    content: "best seller";
-    position: absolute;
-    padding: 1rem 9rem;
-    /* top: 6.5%; */
-    /* right: -3; */
   }
 }
 
@@ -46,6 +30,7 @@ Instead, 1rem = 1em = 16px */
   .container {
     padding: 1.6rem;
   }
+
   .grid--4-cols {
     grid-template-columns: 1fr 1fr;
   }
@@ -54,8 +39,9 @@ Instead, 1rem = 1em = 16px */
     row-gap: 4.8rem;
   }
 
-  .logo {
-    height: 5rem;
+  .logo-transparent {
+    height: 7rem;
+    padding: 1rem;
   }
 
   .best-seller::after {
@@ -69,7 +55,7 @@ Instead, 1rem = 1em = 16px */
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
-    z-index: 9999; /* Bring to front */
+    z-index: 99999; /* Bring to front */
   }
 
   .main-nav {
@@ -109,10 +95,10 @@ Instead, 1rem = 1em = 16px */
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0); /* Menu is visible / slides in horizontally */
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
   }
 
-  .nav-open .main-nav .footer-link {
+  .nav-open .main-nav {
     opacity: 1;
   }
 
@@ -152,6 +138,7 @@ Instead, 1rem = 1em = 16px */
   .container {
     padding: 1.6rem;
   }
+
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
@@ -214,7 +201,6 @@ Instead, 1rem = 1em = 16px */
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0); /* Menu is visible / slides in horizontally */
-    margin-top: 5rem;
   }
 
   .nav-open .main-nav .footer-link {
@@ -250,6 +236,16 @@ Instead, 1rem = 1em = 16px */
 /************************************/
 
 @media (max-width: 23.5em) {
+  .header {
+    height: 6em;
+    padding-left: 0;
+  }
+
+  .logo-transparent {
+    height: 6rem;
+    margin-left: 1em;
+  }
+
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
@@ -320,7 +316,6 @@ Instead, 1rem = 1em = 16px */
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0); /* Menu is visible / slides in horizontally */
-    margin-top: 5rem;
   }
 
   .nav-open .main-nav .footer-link {

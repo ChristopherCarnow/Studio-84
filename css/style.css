@@ -4,18 +4,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
 
-  height: 6.4rem;
+  height: 8rem;
   padding: 0 2.4rem;
   position: relative;
 }
 
-.logo {
-  height: 6rem;
-  border-radius: 50%;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+.header .home {
+  height: 6.4rem;
+}
+
+.logo-transparent {
+  height: 8rem;
 }
 
 /****************************/
@@ -27,14 +27,14 @@
   align-items: center;
   list-style: none;
   gap: 4.8rem;
-  margin-top: 3rem;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
+  cursor: pointer;
   text-decoration: none;
-  color: #333;
+  color: #b3284f;
   font-weight: 300;
   font-size: 1.6rem;
   transition: all 0.3s;
@@ -43,6 +43,7 @@
 .main-nav-link:hover,
 .main-nav-link:active {
   display: inline-block;
+  cursor: pointer;
   color: #b3284f;
 }
 
@@ -51,7 +52,6 @@
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
 }
 
@@ -65,8 +65,7 @@
   display: none;
 }
 
-/* STICKY NAVIGATION */
-.sticky .header {
+.main-nav {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -80,7 +79,7 @@
 }
 
 .sticky .section-hero {
-  margin-top: 6.4rem;
+  margin-top: 8rem;
 }
 
 /****************************/
@@ -88,11 +87,18 @@
 /****************************/
 
 .hero {
-  justify-content: center;
+  position: relative;
 }
 
-.section-hero {
-  padding: 4.8rem 0 4.8rem 0;
+.social-links--home {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.hero-img {
+  width: 100%;
+  /* margin-top: -10rem; */
 }
 
 .company-name {
@@ -106,29 +112,6 @@
   line-height: 2em;
   letter-spacing: 0.3em;
   margin-bottom: 4rem;
-}
-
-.hero-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
-  padding: 1.6rem;
-}
-
-.gallery-item {
-  overflow: hidden;
-  box-shadow: 0.5rem 0.8rem 0.8rem rgba(128, 128, 128, 0.1);
-}
-
-.gallery-item img {
-  /* removes space around images */
-  display: block;
-  width: 100%;
-  transition: all 0.4s;
-}
-
-.hero-gallery img:hover {
-  transform: scale(1.1);
 }
 
 /****************************/
@@ -245,7 +228,7 @@
   font-weight: 700;
   color: #333;
   background-color: #ffd43b;
-  padding: 0.4rem 8rem;
+  padding: 1rem 9rem;
   transform: rotate(45deg);
 }
 
@@ -295,11 +278,16 @@
 /****************************/
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 4.8rem 0;
   border-top: 1px solid #eee;
 
   display: flex;
   flex-direction: column;
+}
+
+.home .footer {
+  padding: 0;
+  border-top: 1px solid #eee;
 }
 
 .copyright {
@@ -316,6 +304,17 @@
   display: flex;
   gap: 2.4rem;
   justify-content: center;
+}
+
+.social-links .social-links--home {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.logo-transparent {
+  position: absolute;
+  top: 0;
 }
 
 /* .social-icon {
