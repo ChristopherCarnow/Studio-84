@@ -89,10 +89,6 @@ h1 {
 /* GENERAL REUSABLE COMPONENTS */
 /****************************/
 
-.home {
-  overflow: hidden;
-}
-
 .container {
   /*  1140px */
   max-width: 120rem;
