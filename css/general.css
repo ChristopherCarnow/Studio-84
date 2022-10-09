@@ -65,6 +65,8 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   font-size: 62.5%;
 
+  overflow-x: hidden;
+
   /* May not work on older Safari or Edge. Currently works on Safari */
   scroll-behavior: smooth;
 }
@@ -149,7 +151,7 @@ h1 {
 
 .section-headings {
   font-weight: 600;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   text-align: center;
   line-height: 3em;
   letter-spacing: 0.3em;

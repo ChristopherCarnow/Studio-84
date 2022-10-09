@@ -245,7 +245,6 @@ Instead, 1rem = 1em = 16px */
 
   .logo-transparent {
     height: 6rem;
-    margin-left: 1em;
   }
 
   .grid--4-cols {
@@ -353,6 +352,10 @@ Instead, 1rem = 1em = 16px */
 /************************************/
 
 @media (max-width: 20em) {
+  .header {
+    padding: 0.8rem;
+  }
+
   .hero {
     max-width: 120rem;
   }
@@ -371,5 +374,10 @@ Instead, 1rem = 1em = 16px */
 
   .main-nav-link:link {
     font-size: 1.2rem;
+  }
+
+  .icon-mobile-nav {
+    height: 3.6rem;
+    width: 3.6rem;
   }
 }
