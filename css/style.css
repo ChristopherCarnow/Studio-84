@@ -10,10 +10,6 @@
   position: relative;
 }
 
-.header .home {
-  height: 6.4rem;
-}
-
 .logo-transparent {
   height: 8rem;
 }
@@ -24,6 +20,7 @@
 
 .main-nav-list {
   display: flex;
+  justify-content: end;
   align-items: center;
   list-style: none;
   gap: 4.8rem;
@@ -67,12 +64,12 @@
 
 .main-nav {
   position: fixed;
+  right: 0;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: 50%;
   height: 8rem;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 2rem;
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
@@ -98,7 +95,7 @@
 
 .hero-img {
   width: 100%;
-  /* margin-top: -10rem; */
+  /* margin-top: -8rem; */
 }
 
 .company-name {
