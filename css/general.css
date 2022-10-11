@@ -70,7 +70,7 @@ html {
 }
 
 body {
-  font-family: "lora", sans-serif; /*"raleway", sans-serif;*/
+  font-family: "Montserrat", sans-serif; /*"raleway", sans-serif;*/
   line-height: 1;
   font-weight: 300;
 
@@ -108,7 +108,6 @@ h1 {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-  /* margin-bottom: 9.6rem; */
 }
 
 /* .grid:last-child {
@@ -154,12 +153,14 @@ h1 {
   line-height: 3em;
   letter-spacing: 0.3em;
   margin: 4.8rem 0 4.8rem 0;
+  color: #555;
 }
 
 .section-text {
   font-size: 1.8rem;
   line-height: 1.7;
   margin-bottom: 4rem;
+  color: #555;
 }
 
 .btn,
