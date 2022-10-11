@@ -24,11 +24,7 @@ alllinks.forEach(function (link) {
 
 ///////////////////////////////////////////////////////////
 // Sticky navigation
-<<<<<<< HEAD
 const sectionHeroEl = document.querySelector(".section-pricing");
-=======
-const sectionHeroEl = document.querySelector(".section-hero");
->>>>>>> 466ec56166e31561e7342b518b00e9ffee39a6bc
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -47,11 +43,7 @@ const obs = new IntersectionObserver(
     // In the viewport
     root: null, //where it starts
     threshold: 0, //how much is visible. could be 1 (completely in view)
-<<<<<<< HEAD
     rootMargin: "-70px", //height of navigation bar. must be px
-=======
-    rootMargin: "-80px", //height of navigation bar. must be px
->>>>>>> 466ec56166e31561e7342b518b00e9ffee39a6bc
   }
 );
 obs.observe(sectionHeroEl);
