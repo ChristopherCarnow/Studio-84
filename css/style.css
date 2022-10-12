@@ -85,17 +85,18 @@
 
 .hero {
   position: relative;
+  margin-top: 8rem;
 }
 
-.social-links--home {
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
+.welcome {
+  padding: 2rem;
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #333;
 }
 
 .hero-img {
   width: 100%;
-  margin-top: 8rem;
 }
 
 .company-name {
@@ -134,6 +135,14 @@
 .plan-header {
   text-align: center;
   margin-bottom: 3.2rem;
+}
+
+.package-img {
+  height: 20rem;
+  width: 20rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 2rem;
 }
 
 .plan-name {
