@@ -24,7 +24,7 @@ alllinks.forEach(function (link) {
 
 ///////////////////////////////////////////////////////////
 // Sticky navigation
-const sectionHeroEl = document.querySelector(".section-pricing");
+const sectionHeroEl = document.querySelector(".section-main");
 
 const obs = new IntersectionObserver(
   function (entries) {
