@@ -62,21 +62,21 @@
   display: none;
 }
 
-.main-nav {
-  /* position: fixed; */
+.sticky {
+  position: fixed; /* Fixed in the viewport and will not move */
   right: 0;
   top: 0;
   bottom: 0;
-  width: 50%;
+  width: 100%; /* Fill the viewport */
   height: 7rem;
-  padding: 2.4rem 0 2.4rem 0;
+  padding: 2.4rem 2rem 2.4rem 1rem;
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
-.sticky .section-hero {
-  margin-top: 8rem;
+.sticky .section-main {
+  margin-top: 7rem;
 }
 
 /****************************/
@@ -95,7 +95,7 @@
 
 .hero-img {
   width: 100%;
-  /* margin-bottom: -4rem; */
+  margin-top: 7rem;
 }
 
 .company-name {
@@ -283,12 +283,11 @@
 .contact-questions {
   line-height: 2.5;
   text-align: left;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .contact-links {
-  line-height: 3;
-  margin-bottom: 1rem;
+  line-height: 2;
 }
 
 .contact-link:link,
